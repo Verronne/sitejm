@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+.classeBouton {
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.cssPanneau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 400px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+}
+.cssBoutonAnnuler{
+    background-color: #d81717;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+
+}
+.cssBoutonConfirmer{
+    background-color: rgb(46, 231, 46);
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}

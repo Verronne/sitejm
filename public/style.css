@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+}
+    
+
+body {
+    margin:0px;
+    color: black;
+    background-size: cover;
+    background-color: #e0e0e0;
+}
+
+.header {
+    text-align: center;
+    @media only screen and (max-width: 600px) {
+    padding: 10px;
+    }
+    padding: 15px;
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/972/324/desktop-wallpaper-fond-d-ecran-abstrait-noir-et-blanc-blanc-noir.jpg');
+    border-bottom: 10px rgb(219, 219, 219);
+    background-size: cover;
+}
+
+.exemple {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid #e0e0e0;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px;
+    font-family: Arial;
+    color: #e0e0e0;
+    margin-left:55px;
+    margin-right: 55px;
+
+
+}
+
+.exemple:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    color: #010101;
+    background-color: #e0e0e0;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menubox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+/*#############--Header--###############*/
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 1.1em;
+}
+
+.headercv {
+    width: auto;
+    height: auto;
+    color: #e0e0e0;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    background-color: #484848;
+    display: flex;
+}
+
+.colonnegauche {
+    background-color: #666666;
+    color: white;
+    width: 450px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.curiculum {
+    background-color: rgb(224, 224, 224);
+    width: auto;
+    padding: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    background-color: #333333;
+    color: #e0e0e0;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr {
+    width: 100px;
+    height: 5px;
+    background-color: #e0e0e0;
+    border-radius: 2px 5px 2px 5px;
+    border: none;
+}
+.separationcuriculum {
+    width: auto;
+    height: 5px;
+    background-color: #666666;
+    border-radius: 2px 5px 2px 5px;
+    border: none;
+}
+
+.separationhorizontale {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bloctext {
+    
+    text-align: left;
+    width: 210px;
+}
+.bloctext2 {
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.linkedin {
+    color: #010101;
+}
+
+/*###########ICONE############*/
+.image {
+    cursor: pointer;
+}
+.maps {
+    cursor: pointer;
+}
+.telephone {
+    cursor: pointer;
+}
+.adressemail {
+    cursor: pointer;
+}
+
+  ol, ul {
+    list-style: none;
+  }
+  
+  .menu-label, .menu-cb {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    appearance: none;
+    z-index: 5;
+  }
+
+  .menu-nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3b3b3b;
+    height: 70%;
+    max-height: 400px;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 0px 0px 10px 0px ;
+    border-right: solid 2px black;
+    border-bottom:solid 2px black;
+    box-shadow: #e1e1e1 2px 2px 2px 2px;
+    padding-top: 70px;
+    color: white;
+    z-index: 4;
+    transform:translate(-105%);
+    transition: transform 0.5s linear;
+    
+
+
+  }
+  .menu-lien {
+color: #e1e1e1;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+  }
+  .menu-item {
+    padding: 0.7em;
+    color: #e1e1e1;
+  }
+  .menu-cb:checked ~ .menu-nav {
+    transform: translate(0%);
+  }
+
+  .menu-cote {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.3;
+    filter: blur(4px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
